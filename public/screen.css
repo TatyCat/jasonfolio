@@ -9,4 +9,155 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+  background: url(images/space.png) no-repeat center center fixed; 
+  background-size: cover;
 }
+
+/* CSS Reset */
+html,div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, 
+menu, nav, section, summary{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+/* ----HEADER SECTION */
+body>header img{
+  height: auto;
+  width: 6.6rem;
+  border-radius: 4px;
+  margin-top:.6rem;
+}
+
+body>header{
+  margin-bottom: 1rem;
+  padding: .8rem;
+  display: flex;
+  justify-content: center;
+  margin-top: .8rem;
+}
+
+body>header h1{
+  color: rgb(55, 55, 55);
+  opacity: 0.70;
+  font-size: calc(1.5vw + 1.6vh);
+  font-weight: 300;
+  padding-top: .2rem;
+  padding-left: .4rem;
+  padding-right: .2rem;
+  margin-left: .3rem;
+  background-color: rgb(240, 255, 255); 
+  border-radius: 4px;
+  height: 2.3rem;
+  position: relative;
+}
+
+/* header h1:after{
+} */
+
+body>header h1 span{
+  font-weight: 900;
+}
+
+/* ----Main Section */
+main{
+  background-color: rgba(19, 19, 19, 0.879);
+}
+
+main section img{
+  display: flex;
+  justify-content: center;
+  padding: .7rem;
+  width: 85%;
+  height: auto;
+}
+
+article{
+  border-radius: 2px;
+  margin: .5rem;
+  font-size: 2vh;
+  color: #363636;
+}
+
+article h2{
+  font-weight: 400;
+  font-size: 1.6vh;
+  margin-bottom: .3rem;
+}
+
+article h2 span{
+  font-weight: 900;
+  font-size: 2.5vh;
+  padding-right: .1rem;
+}
+
+.article-1 div, .article-2 div{
+  background-color: white;
+  border-radius: 0 0 2px 2px;
+  padding: .4rem;
+}
+
+.article-1{
+  background: url("images/react.png");
+  background-color: black;
+  background-position: top;
+  /* border-radius: 2px; */
+  background-repeat: no-repeat;
+  padding-top: 1.5rem;
+}
+
+button{
+  color: white;
+  background-color: #3681CF;
+  border-radius: 1.5px;
+  border: 0;
+  padding: .1rem .3rem;
+  font-size: 2vh;
+  float: right;
+  margin-top: -5px;
+  margin-right: 3px;
+}
+
+
+/* ----Footer */
+footer{
+  margin-top: 3rem;
+  overflow: hidden;
+  background-color: black;
+  color: #EFEEEE;
+  text-align: center;
+  font-size: .5rem;
+}
+
+footer p{
+  margin: .8rem;
+}
+
+footer img{
+  width: 1.1rem;
+  height: 1rem;
+  border-radius: 50%;
+}
+
+footer a{
+  padding-right: .3rem;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+footer p{
+  text-decoration: none;
+}
+
+footer p:nth-of-type(2){
+  font-size: .29rem;
+}
+
