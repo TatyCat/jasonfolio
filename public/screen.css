@@ -29,8 +29,8 @@ menu, nav, section, summary{
 
 /* ----HEADER SECTION */
 body>header img{
-  height: auto;
-  width: 6.6rem;
+  height: calc(12vw + 13vh);
+  width: auto;
   border-radius: 4px;
   margin-top:.6rem;
 }
@@ -40,7 +40,7 @@ body>header{
   padding: .8rem;
   display: flex;
   justify-content: center;
-  margin-top: .8rem;
+  margin-top: .8rem; 
 }
 
 body>header h1{
@@ -48,9 +48,10 @@ body>header h1{
   opacity: 0.70;
   font-size: calc(1.5vw + 1.6vh);
   font-weight: 300;
-  padding-top: .2rem;
-  padding-left: .4rem;
-  padding-right: .2rem;
+  padding-top: .7em;
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-bottom: 7vh;
   margin-left: .3rem;
   background-color: rgb(240, 255, 255); 
   border-radius: 4px;
@@ -72,17 +73,25 @@ main{
 
 main section img{
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  padding: .7rem;
+  align-content: center;
+  padding: 1rem;
   width: 85%;
+  max-width: 500px;
   height: auto;
 }
+
+/* main section{
+  display: flex;
+  justify-content: center;
+} */
 
 article{
   border-radius: 2px;
   margin: .5rem;
   font-size: 2vh;
-  color: #363636;
+0  color: #363636;
 }
 
 article h2{
@@ -106,10 +115,14 @@ article h2 span{
 .article-1{
   background: url("images/react.png");
   background-color: black;
-  background-position: top;
+  /* background-position: top; */
   /* border-radius: 2px; */
   background-repeat: no-repeat;
   padding-top: 1.5rem;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position-y: 50%;
+
 }
 
 button{
@@ -127,7 +140,7 @@ button{
 
 /* ----Footer */
 footer{
-  margin-top: 3rem;
+  padding-top: 3rem;
   overflow: hidden;
   background-color: black;
   color: #EFEEEE;
