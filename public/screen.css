@@ -102,7 +102,7 @@ article{
 article h2{
   font-weight: 400;
   font-size: 1.6vh;
-  margin-bottom: .3rem;
+  padding-bottom: 1rem;
 }
 
 article h2 span{
@@ -118,21 +118,29 @@ article h2 span{
 }
 
 .article-1, .article-2{
-  background-color: black;
-  /* background-position: top; */
+  background-color: rgb(60, 60, 60);
+  background-position: top;
   /* border-radius: 2px; */
   background-repeat: no-repeat;
-  padding-top: 1.5rem;
+  padding-top: 4rem;
   background-size: cover;
   background-attachment: scroll;
-  background-position-y: 50%;
+  background-position-y: 20%;
   margin-bottom: 3rem;
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
+.article-1 header, .article-2 header{
+  background-position-y: 50%;
+}
+
 .article-1{
   background: url("images/react.png");
+}
+
+.article-2{
+  background: url("images/code.png");
 }
 
 button{
