@@ -10,11 +10,14 @@ body {
   margin: 0;
   min-height: 100%;
   font-family: 'Roboto', sans-serif;
-  background: url(images/space.png) no-repeat center center fixed; 
+  background: url(images/space.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: relative; 
   background-size: cover;
 }
 
-/* CSS Reset */
+/* ----CSS Reset */
 html,div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
@@ -59,6 +62,7 @@ body>header h1{
 }
 
 /* header h1:after{
+    work on last - triangle to chat bubble
 } */
 
 body>header h1 span{
@@ -69,14 +73,14 @@ body>header h1 span{
 main{
   background-color: rgba(19, 19, 19, 0.879);
   margin-top: 5rem;
-  padding-bottom: 5em;
+  padding-bottom: 2em;
 }
 
 main section img{
   padding-left: .8rem;
   padding-right: .8rem;
   padding-top: 5rem;
-  padding-bottom: .5rem;
+  padding-bottom: .2rem;
   max-width: 500px;
   width: 85%;
   height: auto;
@@ -136,7 +140,7 @@ button{
   background-color: #3681CF;
   border-radius: 1.5px;
   border: 0;
-  padding: .1rem .3rem;
+  padding: .2rem .4rem;
   font-size: 2vh;
   float: right;
   margin-top: -5px;
@@ -161,7 +165,7 @@ footer p{
 
 footer img{
   width: 5vh;
-  height: 4.6vh;
+  height: 4.5vh;
   border-radius: 50%;
 }
 
