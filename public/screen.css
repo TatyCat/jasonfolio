@@ -58,6 +58,7 @@ body>header h1{
   background-color: rgb(240, 255, 255); 
   height: 2.3rem;
   position: relative;
+  border-radius: 4px;
 }
 
 /* header h1:after{
