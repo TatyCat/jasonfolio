@@ -196,12 +196,10 @@ footer p:nth-child(7){
 }
 
 
+/* ----Media Query Section~ */
+@media only screen and (min-width: 750px) {
+  main section {
+    flex-flow: row nowrap;
+  }
+}
 
-
-
-/* ----Media Query */
-/* main section {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-} */
