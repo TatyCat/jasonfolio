@@ -32,7 +32,7 @@ body>header img{
   height: calc(12vw + 13vh);
   width: auto;
   border-radius: 4px;
-  margin-top:.6rem;
+  margin-top:.9rem;
 }
 
 body>header{
@@ -72,26 +72,23 @@ main{
 }
 
 main section img{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-content: center;
-  padding: 1rem;
-  width: 85%;
+  padding: 1.5rem .8rem;
   max-width: 500px;
+  width: 85%;
   height: auto;
 }
 
-/* main section{
+main section {
   display: flex;
-  justify-content: center;
-} */
+  flex-flow: column wrap;
+  align-items: center;
+}
 
 article{
   border-radius: 2px;
   margin: .5rem;
   font-size: 2vh;
-0  color: #363636;
+  color: #363636;
 }
 
 article h2{
@@ -122,7 +119,7 @@ article h2 span{
   background-size: cover;
   background-attachment: scroll;
   background-position-y: 50%;
-
+  margin-bottom: 3rem;
 }
 
 button{
@@ -141,7 +138,6 @@ button{
 /* ----Footer */
 footer{
   padding-top: 3rem;
-  overflow: hidden;
   background-color: black;
   color: #EFEEEE;
   text-align: center;
@@ -150,6 +146,7 @@ footer{
 
 footer p{
   margin: .8rem;
+  text-decoration: none;
 }
 
 footer img{
@@ -166,11 +163,17 @@ a:link{
   text-decoration: none;
 }
 
-footer p{
-  text-decoration: none;
-}
-
 footer p:nth-of-type(2){
   font-size: .29rem;
 }
 
+
+
+
+
+/* Media Query */
+/* main section {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+} */
