@@ -39,10 +39,10 @@ body>header img{
 }
 
 body>header{
-  padding: .8rem;
+  padding: .9rem;
   display: flex;
   justify-content: center;
-  margin-top: 9rem; 
+  margin-top: 8rem; 
 }
 
 body>header h1{
@@ -54,7 +54,7 @@ body>header h1{
   padding-left: .5em;
   padding-right: .5em;
   padding-bottom: 7vh;
-  margin-left: .3rem;
+  margin-left: .5rem;
   background-color: rgb(240, 255, 255); 
   height: 2.3rem;
   position: relative;
@@ -118,6 +118,10 @@ article h2 span{
 
 article h2, article p{
   padding: 1rem;
+}
+
+article p {
+  padding-top: 0;
 }
 
 .article-1 div, .article-2 div{
