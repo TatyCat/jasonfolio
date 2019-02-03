@@ -10,7 +10,7 @@ body {
   margin: 0;
   min-height: 100%;
   font-family: 'Roboto', sans-serif;
-  background: url(images/space.png);
+  /* background: url(images/space.png); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: relative; 
@@ -56,7 +56,6 @@ body>header h1{
   padding-bottom: 7vh;
   margin-left: .3rem;
   background-color: rgb(240, 255, 255); 
-  border-radius: 4px;
   height: 2.3rem;
   position: relative;
 }
@@ -94,9 +93,12 @@ main section {
 }
 
 article{
-  border-radius: 2px;
   font-size: 2vh;
   color: #363636;
+}
+
+article header{
+  border-radius: 5px 5px 0 0 ;  
 }
 
 article h2{
@@ -111,42 +113,43 @@ article h2 span{
   padding-right: .1rem;
 }
 
+article h2, article p{
+  padding: 1rem;
+}
+
 .article-1 div, .article-2 div{
   background-color: white;
-  border-radius: 0 0 2px 2px;
-  padding: .4rem;
+  border-radius: 0 0 5px 5px;
 }
 
 .article-1, .article-2{
-  background-color: rgb(60, 60, 60);
-  background-position: top;
-  /* border-radius: 2px; */
-  background-repeat: no-repeat;
-  padding-top: 4rem;
-  background-size: cover;
-  background-attachment: scroll;
-  background-position-y: 20%;
   margin-bottom: 3rem;
   margin-left: 2rem;
   margin-right: 2rem;
 }
 
 .article-1 header, .article-2 header{
+  background-color: rgb(60, 60, 60);
   background-position-y: 50%;
+  background-image: no-repeat;
+  padding-top: 4rem;
+  background-size: cover;
+  background-position-y: 50%;
+  
 }
 
-.article-1{
-  background: url("images/react.png");
+.article-1 header{
+  background-image: url("images/react.png");
 }
 
-.article-2{
-  background: url("images/code.png");
+.article-2 header{
+  background-image: url("images/code.png");
 }
 
 button{
   color: white;
   background-color: #3681CF;
-  border-radius: 1.5px;
+  border-radius: 2px;
   border: 0;
   padding: .2rem .4rem;
   font-size: 2vh;
@@ -154,7 +157,6 @@ button{
   margin-top: -5px;
   margin-right: 3px;
 }
-
 
 /* ----Footer */
 footer{
@@ -197,7 +199,7 @@ footer p:nth-child(7){
 
 
 
-/* Media Query */
+/* ----Media Query */
 /* main section {
   display: flex;
   flex-flow: row nowrap;
