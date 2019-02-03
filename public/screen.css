@@ -109,8 +109,7 @@ article h2 span{
   padding: .4rem;
 }
 
-.article-1{
-  background: url("images/react.png");
+.article-1, .article-2{
   background-color: black;
   /* background-position: top; */
   /* border-radius: 2px; */
@@ -120,6 +119,12 @@ article h2 span{
   background-attachment: scroll;
   background-position-y: 50%;
   margin-bottom: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.article-1{
+  background: url("images/react.png");
 }
 
 button{
