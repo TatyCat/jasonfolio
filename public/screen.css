@@ -91,6 +91,8 @@ main section {
   flex-flow: column wrap;
   align-items: center;
   padding-bottom: 5rem;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
 }
 
 article{
@@ -152,7 +154,7 @@ button{
   background-color: #3681CF;
   border-radius: 5px;
   border: 0;
-  padding: .2rem .4rem;
+  padding: .4rem .4rem;
   font-size: 2vh;
   float: right;
   margin-top: -5px;
